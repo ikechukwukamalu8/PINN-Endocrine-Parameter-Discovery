@@ -1,4 +1,4 @@
-﻿# Physics-Informed Neural Networks for Inverse Modeling of Endocrine Dynamics
+﻿# Physics-Informed Neural Networks for Inverse Modelling of Endocrine Dynamics
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-ee4c2c.svg)](https://pytorch.org/)
@@ -19,7 +19,7 @@ Rather than merely reconstructing physiological trajectories, the objective is t
 
 The project illustrates how Scientific Machine Learning (SciML) can combine mechanistic physiological knowledge with neural networks to estimate latent biological quantities that are not directly observable.
 
-This approach is particularly relevant for digital health, computational biology, personalized medicine, and endocrine system modeling.
+This approach is particularly relevant for digital health, computational biology, personalized medicine, and endocrine system modelling.
 
 ---
 
@@ -38,7 +38,7 @@ Scientific Machine Learning aims to answer a deeper question:
 
 > Which physiological parameters generated the observed data?
 
-This process is known as **inverse modeling** or **parameter discovery**.
+This process is known as **inverse modelling** or **parameter discovery**.
 
 ---
 
@@ -67,7 +67,7 @@ The parameter $p_1$ is treated as **unknown** and learned directly from data.
 
 ---
 
-## 🎯 Inverse Modeling Objective
+## 🎯 Inverse Modelling Objective
 
 Unlike conventional PINN trajectory reconstruction, the goal is to estimate hidden physiological parameters.
 
@@ -299,13 +299,13 @@ This project demonstrates:
 
 * Physics-Informed Neural Networks (PINNs)
 * Scientific Machine Learning (SciML)
-* Inverse Modeling
+* Inverse Modelling
 * Parameter Discovery
 * System Identification
 * Automatic Differentiation
 * ODE-Constrained Learning
 * Computational Endocrinology
-* Mechanistic–Data-Driven Modeling
+* Mechanistic–Data-Driven Modelling
 * Interpretable Machine Learning
 
 ---
@@ -371,7 +371,7 @@ This project sits at the intersection of:
 * Dynamical Systems
 * Inverse Problems
 * Deep Learning
-* Mathematical Modeling
+* Mathematical Modelling
 
 ---
 
