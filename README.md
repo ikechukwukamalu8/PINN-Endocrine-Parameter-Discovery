@@ -328,7 +328,7 @@ from clinical measurements.
 
 ### Personalized Digital Twins
 
-Learn patient-specific physiological parameters and forecast future endocrine behavior.
+Learn patient-specific physiological parameters and forecast future endocrine behaviour.
 
 ---
 
