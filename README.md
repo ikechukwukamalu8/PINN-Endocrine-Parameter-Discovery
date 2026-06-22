@@ -116,7 +116,10 @@ Trajectory Reconstruction
            ↓
 Adaptive Gradient Balancing & Annealing
            ↓
-Estimated Physiological Parameter (p1)
+Estimated Physiological Parameter (p₁)
+```
+
+---
 
 ## 📈 Example Outputs
 
@@ -137,9 +140,6 @@ The high-precision pipeline effectively eliminates learning stagnation:
 ├── README.md
 └── requirements.txt
 ```
-
----
-
 ## ⚡ Installation & Execution
 
 ### 1. Install Requirements
