@@ -121,9 +121,10 @@ Estimated Physiological Parameter (p1)
 ## 📈 Example Outputs
 
 The high-precision pipeline effectively eliminates learning stagnation:
+
 * **True $p_1$ Target:** 0.0250
-* **Discovered PINN Parameter:** 0.0233
-* **Final Parameter Discovery Error:** 6.86%
+* **Discovered PINN Parameter:** ~0.0233
+* **Final Parameter Discovery Error:** < 7%
 
 ---
 
