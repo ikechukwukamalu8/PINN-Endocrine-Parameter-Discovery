@@ -136,16 +136,23 @@ The high-precision pipeline effectively eliminates learning stagnation:
 ├── parameter_convergence.png
 ├── README.md
 └── requirements.txt
+```
+
+---
 
 ## ⚡ Installation & Execution
 
-1. Install requirements locally:
+### 1. Install Requirements
 
-   pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
-2. Execute the engine script:
+### 2. Execute the Engine Script
 
-   python main.py
+```bash
+python main.py
+```
 
 ---
 
@@ -158,15 +165,18 @@ The high-precision pipeline effectively eliminates learning stagnation:
 * **Gradient Pathology Mitigation**
 * **Automatic Differentiation**
 * **ODE-Constrained Optimization**
+
 ---
 
 ## 🚀 Future Extensions
 
 ### Full Bergman Minimal Model
-Expand the physics loss framework to a coupled multi-equation ordinary differential system to estimate insulin sensitivity and active hormone degradation kinetics simultaneously.
+
+Expand the physics-loss framework to a coupled multi-equation ordinary differential system to estimate insulin sensitivity and active hormone degradation kinetics simultaneously.
 
 ### Bayesian PINNs
-Introduce distribution weight priors to quantify epistemological uncertainties and output 95% Bayesian credible interval ribbons on the discovered parameter paths.
+
+Introduce probabilistic weight priors to quantify epistemic uncertainty and generate 95% Bayesian credible interval ribbons around discovered parameter trajectories.
 
 ---
 
