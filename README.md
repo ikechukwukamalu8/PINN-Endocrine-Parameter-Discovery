@@ -72,6 +72,7 @@ Unlike baseline PINN formulations that rely on unconstrained hidden states, this
 The optimization objective combines data consistency and physical realism using a **Dynamic Gradient Balancing** strategy to ensure robust convergence.
 
 ### Data Loss
+
 The model minimizes data reconstruction error on clinical observations:
 
 $$\mathcal{L}_{\text{data}} = \text{MSE}(G_{\text{pred}}, G_{\text{obs}})$$
