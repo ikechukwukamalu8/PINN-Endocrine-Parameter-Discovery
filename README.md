@@ -73,7 +73,10 @@ The optimization objective combines data consistency and physical realism using 
 
 ### Data Loss
 The model minimizes data reconstruction error on clinical observations:
+
 $$\mathcal{L}_{\text{data}} = \text{MSE}(G_{\text{pred}}, G_{\text{obs}})$$
+
+---
 
 ### Physics Loss
 Automatic differentiation computes continuous temporal derivatives to minimize the ODE residual:
@@ -118,8 +121,8 @@ Estimated Physiological Parameter (p1)
 
 The high-precision pipeline effectively eliminates learning stagnation:
 * **True $p_1$ Target:** 0.0250
-* **Discovered PINN Parameter:** ~0.0233
-* **Final Parameter Discovery Error:** < 7%
+* **Discovered PINN Parameter:** 0.0233
+* **Final Parameter Discovery Error:** 6.86%
 
 ---
 
